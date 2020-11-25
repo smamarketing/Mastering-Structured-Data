@@ -2,7 +2,7 @@
 (function(){
 	var jsondata = {
 		
-"@context": "https://schema.org/",
+  "@context": "https://schema.org/",
   "@type": "BreadcrumbList",
   "itemListElement": [
     {
@@ -16,7 +16,8 @@
       "position": 2,
       "name": "Structured Data Generator",
       "item": "https://simplifiedsearch.net/schema-examples/breadcrumb-markup/"
-
+    }
+  ]
 };
 
 var el = document.createElement ('script');
