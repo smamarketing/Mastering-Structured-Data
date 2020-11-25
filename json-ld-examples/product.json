@@ -1,0 +1,48 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Schema.org Robot",
+  "image": "https://simplifiedsearch.net/wp-content/uploads/2020/11/600px-Romeo_the_robot_.jpg",
+  "description": "Want to sit back, relax, and have your own personal robot do all your schema.org markup for you? Then you need the Schema.org Robot.  This is the most advanced fictional robot to ever be produced. (If you only need a robot of Schema.org markup)  Don’t delay, get yours today!",
+  "brand": "Simplified Search",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "900"
+  },
+  "sku": "001",
+  "gtin8": "001",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://simplifiedsearch.net/schema-examples/product-markup/",
+    "priceCurrency": "USD",
+    "price": "1000000000",
+    "priceValidUntil": "2020-11-24",
+    "availability": "https://schema.org/PreOrder",
+    "itemCondition": "https://schema.org/NewCondition"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewBody": "Best robot I never had!",
+      "author": {
+        "@type": "Person",
+        "name": "Sarah G."
+      },
+      "name": "Sarah G.",
+      "datePublished": "2020-11-24",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Simplified Search"
+      }
+    }
+  ]
+}
+</script>
