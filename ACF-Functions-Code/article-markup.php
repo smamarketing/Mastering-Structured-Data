@@ -1,41 +1,44 @@
 <?php
-/***Video Markup***/
+/***Article Markup***/
 
-function video_markup() {
+function article_markup() {
     global $post;
 
-    if( has_tag('video'))
+    if( has_tag('article'))
     {
 
     $schema = array(
- 
-  "@context" => "https://schema.org",
-  "@type" => "VideoObject",
-  "name" => get_field('name'),
-  "description" => get_field('videos_description'),
-  "thumbnailUrl" => [
-    get_field('thumbnail_image')
-  ],
-  "uploadDate" => get_field('date_published'),
-  "contentUrl" => get_field('content_url'),
-  "embedUrl" => get_field('embed_url'),
+
+  "@context" => "https://schema.org/",
+  "@type" => "Article",
+  "mainEntityOfPage" => array (
+
+   "@type" => "WebPage",
+   "@id" => get_field('id')
+  ),
+
+  "headline" => get_field('headline'),
+  "description" => get_field('description'),
+  "image" => get_field('image'),
+  "author" => array(
+    "@type" => "Person",
+    "name" => get_field('name')
+  ),
   "publisher" => array(
     "@type" => "Organization",
-    "name" => get_field('publisher'),
+    "name" => get_field('name-publisher'),
     "logo" => array(
       "@type" => "ImageObject",
-      "url" => get_field('publisher_logo_url'),
-      "width" => get_field('logo_width'),
-      "height" => get_field('logo_height')
+      "url" => get_field('url-logo')
     )
   ),
-  "duration" => get_field('duration')
+  "datePublished" => get_field('datepublished'),
+  "dateModified" => get_field('datemodified')
 
-  );
+);
 
-    	   echo '<script type="application/ld+json">' . json_encode($schema) . '</script>';
+    echo '<script type="application/ld+json">' . json_encode($schema) . '</script>';
 }};
 
-add_action('wp_head', 'video_markup');
-
+add_action('wp_head', 'article_markup');
 ?>
