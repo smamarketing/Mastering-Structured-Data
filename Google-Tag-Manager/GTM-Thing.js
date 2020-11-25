@@ -1,0 +1,27 @@
+<script>
+(function(){
+	var jsondata = {
+		
+"@context": "https://schema.org/",
+  "@type": "Thing",
+  "name": "Schema.org",
+  "alternateName": [
+    "Schema Markup"
+  ],
+  "sameAs": [
+    "http://dbpedia.org/page/Schema.org",
+    "http://www.wikidata.org/entity/Q3475322"
+  ],
+  "url": "https://simplifiedsearch.net/schema-examples/thing-markup/",
+  "description": "Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.",
+  "image": "https://simplifiedsearch.net/wp-content/uploads/2020/11/schema-org-arial-1-300x169.png"
+
+};
+
+var el = document.createElement ('script');
+el.type = 'application/ld+json';
+el.innerHTML = JSON.stringify(jsondata);
+document.head.appendChild(el);
+}) ();
+
+</script>
