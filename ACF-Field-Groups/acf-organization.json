@@ -1,0 +1,327 @@
+[
+    {
+        "key": "group_5fbd5bb965fe2",
+        "title": "Organizational",
+        "fields": [
+            {
+                "key": "field_5fbd5bd41fcdc",
+                "label": "Organization Type",
+                "name": "organization_type",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Organization": "Organization",
+                    "Airline": "Airline",
+                    "Consortium": "Consortium",
+                    "Corporation": "Corporation",
+                    "EducationalOrganization": "EducationalOrganization",
+                    "FundingScheme": "FundingScheme",
+                    "GovernmentOrganization": "GovernmentOrganization",
+                    "LibrarySystem": "LibrarySystem",
+                    "MedicalOrganization": "MedicalOrganization",
+                    "NGO": "NGO",
+                    "NewsMediaOrganization": "NewsMediaOrganization",
+                    "PerformingGroup": "PerformingGroup",
+                    "Project": "Project",
+                    "SportsOrganization": "SportsOrganization",
+                    "WorkersUnion": "WorkersUnion"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5fbd5c8c1fcdd",
+                "label": "Name",
+                "name": "name",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fbd5c951fcde",
+                "label": "Alternate Name",
+                "name": "alternate_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fbd5ca41fcdf",
+                "label": "URL",
+                "name": "url",
+                "type": "url",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5fbd5cb21fce0",
+                "label": "Logo URL",
+                "name": "_logo_url",
+                "type": "image",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5fbd5cd91fce1",
+                "label": "Facebook",
+                "name": "facebook",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fbd5ce11fce2",
+                "label": "Twitter",
+                "name": "twitter",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fbd5ce81fce3",
+                "label": "YouTube",
+                "name": "youtube",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fbd5cf01fce4",
+                "label": "LinkedIn",
+                "name": "linkedin",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fbd5d141fce5",
+                "label": "Telephone",
+                "name": "telephone",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fbd5d1f1fce6",
+                "label": "Email",
+                "name": "email",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fbd5dc91fce7",
+                "label": "Contact Type",
+                "name": "contact_type",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Customer service": "Customer service",
+                    "Technical support": "Technical support",
+                    "Billing support": "Billing support",
+                    "Bill payment": "Bill payment",
+                    "Sales": "Sales",
+                    "Reservations": "Reservations",
+                    "Credit card support": "Credit card support",
+                    "Emergency": "Emergency",
+                    "Baggage tracking": "Baggage tracking",
+                    "Roadside assistance": "Roadside assistance",
+                    "Package tracking": "Package tracking"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5fbd5e331fce8",
+                "label": "Areas Served",
+                "name": "areas_served",
+                "type": "text",
+                "instructions": "Use Countries ISO 3166-1 Abbreviation. \r\n\r\nhttps:\/\/en.wikipedia.org\/wiki\/ISO_3166-1\r\n\r\nAdd additional values using a comma.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5fbd5f361fce9",
+                "label": "Languages",
+                "name": "languages",
+                "type": "text",
+                "instructions": "Please use one of the language codes from the IETF BCP 47 standard.\r\n\r\nHere is a list: https:\/\/appmakers.dev\/bcp-47-language-codes-list\/",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_taxonomy",
+                    "operator": "==",
+                    "value": "post_tag:org"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
